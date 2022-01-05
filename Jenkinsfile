@@ -28,7 +28,7 @@ pipeline{
          post{
                
               always{
-               		archiveArtifacts artifacts: 'OutputResult/**'
+               		archiveArtifacts artifacts: '/Users/tsrin/OutputResult/**'
                    
                     bat "docker-compose -f docker-compose-v3.yml down"                   
                    
